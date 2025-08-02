@@ -13,7 +13,6 @@ interface StepTabsProps {
 
 const StepTabs: React.FC<StepTabsProps> = ({ steps, currentStep }) => (
   <div className="flex flex-col items-center">
-    {/* Icon */}
     <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center mb-4">
       <svg
         className="w-6 h-6 text-blue-600 dark:text-blue-400"
@@ -30,7 +29,6 @@ const StepTabs: React.FC<StepTabsProps> = ({ steps, currentStep }) => (
       </svg>
     </div>
 
-    {/* Progress Bar */}
     <div className="w-full flex items-center justify-between mb-2">
       {steps.map((step, index) => (
         <React.Fragment key={step.id}>
