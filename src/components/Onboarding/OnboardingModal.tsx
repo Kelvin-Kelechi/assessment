@@ -37,13 +37,13 @@ const OnboardingModal = () => {
     email: "",
     username: "",
     password: "",
-    theme: "Dark", // Changed default to Dark
+    theme: "Dark", 
     newsletter: false,
   });
 
   const [errors, setErrors] = useState<FormErrors>({});
 
-  // Apply theme to document
+  
   useEffect(() => {
     const root = document.documentElement;
     const body = document.body;
@@ -61,7 +61,7 @@ const OnboardingModal = () => {
     }
   }, [formData.theme]);
 
-  // Initialize dark mode on component mount
+ 
   useEffect(() => {
     const root = document.documentElement;
     const body = document.body;
