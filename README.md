@@ -28,6 +28,36 @@ A modern, multi-step onboarding flow built with React, TypeScript, and Tailwind 
 - **Framer Motion** for animations
 - **Vite** for build tooling
 
+## Getting Started
+
+To run the project locally:
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/Kelvin-Kelechi/assessment.git
+   cd onboarding-assessment
+   ```
+
+2. **Install dependencies**  
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**  
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production**  
+   ```bash
+   npm run build
+   ```
+
+5. **Preview production build**  
+   ```bash
+   npm run preview
+   ```
+
 ## Project Structure
 
 ```
