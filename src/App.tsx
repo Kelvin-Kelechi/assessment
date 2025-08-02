@@ -1,11 +1,16 @@
-import "./App.css";
+// /App.tsx
+import React from "react";
+import OnboardingModal from "./components/Onboarding/OnboardingModal";
+import { ThemeProvider } from "./contexts/ThemeContext";
 
-function App() {
+const App: React.FC = () => {
   return (
-    <>
-      <h1 className="text-fuchsia-800 text-7xl">Hello World</h1>
-    </>
+    <ThemeProvider>
+      <div className="min-h-screen flex items-center justify-center bg-gray-100 dark:bg-gray-900">
+        <OnboardingModal />
+      </div>
+    </ThemeProvider>
   );
-}
+};
 
 export default App;
