@@ -1,4 +1,3 @@
-// /App.tsx
 import React from "react";
 import OnboardingModal from "./components/Onboarding/OnboardingModal";
 import { ThemeProvider } from "./contexts/ThemeContext";
